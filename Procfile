@@ -1,0 +1,1 @@
+web: sh scripts/run_release.sh
