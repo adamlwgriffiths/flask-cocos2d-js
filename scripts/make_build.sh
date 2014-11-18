@@ -36,13 +36,14 @@ cp -r ${COCOS_DIR}/publish/html5/* ${BUILD_DIR}/cocos
 rm -rf ${COCOS_DIR}/publish
 
 # copy support files for heroku
-cp Procfile requirements.txt server.py ${BUILD_DIR}
+cp Procfile requirements.txt ${BUILD_DIR}
 
 # copy scripts
 mkdir -p ${BUILD_DIR}/scripts
-cp scripts/run_release.sh ${BUILD_DIR}/scripts
+cp scripts/run_flask.sh.release ${BUILD_DIR}/scripts/run_flask.sh
 
 # copy server
+cp server.py ${BUILD_DIR}
 cp -r server ${BUILD_DIR}/server
 
 popd

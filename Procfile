@@ -1,1 +1,1 @@
-web: sh scripts/run_release.sh
+web: sh scripts/run_flask.sh
