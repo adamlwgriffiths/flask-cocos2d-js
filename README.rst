@@ -27,7 +27,7 @@ Quick Start
     pip install -r requirements.txt
 
     # run the bash script
-    ./scripts/run_debug.sh
+    ./scripts/run_flask.sh
     # or run the python script
     python server.py --debug
 
@@ -52,7 +52,7 @@ Cocos uses Node.js for it's build system.
 
     # run release from inside the build directory
     cd build
-    ./scripts/run_release.sh
+    ./scripts/run_flask.sh
     # or run the python script
     python server.py --release
 
