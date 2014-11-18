@@ -50,10 +50,7 @@ Cocos uses Node.js for it's build system.
     # make a release build
     ./scripts/make_build.sh
 
-    # run the release build
-    ./scripts/run_release.sh
-
-    # run release from inside the release 
+    # run release from inside the build directory
     cd build
     ./scripts/run_release.sh
     # or run the python script
