@@ -6,6 +6,6 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 pushd ${DIR}
 cd ..
 
-python server.py --debug
+python server.py --debug $*
 
 popd

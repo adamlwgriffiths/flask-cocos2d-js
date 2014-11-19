@@ -43,6 +43,6 @@ def register_filters():
     from . import filters
     filters.register_filters(app())
 
-def run():
+def run(port=5000):
     debug = app().debug
-    app().run(debug=debug, use_debugger=debug, use_reloader=debug, host='0.0.0.0')
+    app().run(debug=debug, use_debugger=debug, use_reloader=debug, host='0.0.0.0', port=port)
