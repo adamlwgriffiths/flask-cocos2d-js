@@ -1,1 +1,1 @@
-web: bash scripts/run_flask.sh --port 3000
+web: bash scripts/run_flask.sh --port $PORT
