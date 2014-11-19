@@ -15,6 +15,6 @@ if [ -z ${RELEASE_REPO} ]; then
 fi
 
 cd ${BUILD_DIR}
-git push orgin master
+git push origin master
 
 popd
