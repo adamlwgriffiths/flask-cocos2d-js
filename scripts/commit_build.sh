@@ -9,9 +9,9 @@ source vars.sh
 
 cd ..
 
-if [ -z ${RELEASE_DEPO} ]; then
+if [ -z ${RELEASE_REPO} ]; then
     echo "RELEASE_REPO not set"
-    return
+    exit 1
 fi
 
 GIT_VERSION=`git rev-parse HEAD`
