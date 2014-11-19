@@ -19,6 +19,6 @@ GIT_VERSION=`git rev-parse HEAD`
 cd ${BUILD_DIR}
 
 git add .
-git commit -a -m 'Build for commit ${GIT_VERSION}'
+git commit -a -m "Build for commit ${GIT_VERSION}"
 
 popd

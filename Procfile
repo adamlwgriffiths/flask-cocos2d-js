@@ -1,1 +1,1 @@
-web: sh scripts/run_flask.sh
+web: bash scripts/run_flask.sh
